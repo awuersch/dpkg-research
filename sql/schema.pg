@@ -1,0 +1,3 @@
+# intended for db conf
+CREATE SCHEMA dpkg;
+ALTER ROLE tony SET search_path TO dpkg,public;
